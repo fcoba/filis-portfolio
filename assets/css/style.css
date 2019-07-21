@@ -1760,7 +1760,11 @@ label {
 
 .biodiversity {
 	background-color: white;
-	height: 100%;
+	height: 100%; 
+	-webkit-transition: background-color 0.75s ease;
+	-moz-transition: background-color 0.75s ease;
+	-o-transition: background-color 0.75s ease;
+	transition: background-color 0.75s ease;
 }
 
 .biodiversity:hover {
